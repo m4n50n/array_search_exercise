@@ -1,9 +1,9 @@
 ### Ejercicio de Búsqueda
 
-Para este ejercicio hay que hacer una búsqueda dentro de un array de longitud (N) y encontrar en la menor cantidad de movimientos un número dado.
+Para este ejercicio hay que hacer una búsqueda dentro de un array de longitud (N) y encontrar, en el menor tiempo posible, un número dado.
 
 ### Evaluación:
-- Legibilidad de codigo
+- Legibilidad de código
 - El coste del algoritmo 
 - Lógica aplicada
 
