@@ -9,7 +9,7 @@ Para este ejercicio hay que hacer una búsqueda dentro de un array de longitud (
 
 ### Inicio y ejecución del ejercicio
 - Iniciar workspace en Gitpod y crear el archivo *app.js*
-- Para ejecutar el archivo *app.js*, ejecutar en la terminal `$ node app.js`
+- Para ejecutar el archivo *app.js*, ejecutar en la terminal el comando `$ node app.js`
 
 ### Ejemplo de entrada
 
