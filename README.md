@@ -1,26 +1,20 @@
-### Ejercicio-de-Busqueda
+### Ejercicio de Búsqueda
 
-Para este ejercicio hya que hacer una busqueda dentro de un array de una longitud de (N)y encontrar en la menor cantidad de movimientos un numero dado (n).
+Para este ejercicio hay que hacer una búsqueda dentro de un array de longitud (N) y encontrar en la menor cantidad de movimientos un número dado.
 
-Evaliación:
-- Legibilidad de codigo.
+### Evaluación:
+- Legibilidad de codigo
 - El coste del algoritmo 
-- Logica aplicada
+- Lógica aplicada
 
-####Iniciar proyecto
-Para iniciar este ejercicio.
-- hacer un fork de este repositorio para que tengan un copia en su proyecto.
-- abrir un proecyto nuevo en el BreatheCode y abrir New Empty.
-- borrar los archivos que esten dentro de ese proyecto, readme y server.py.
-- hacer un git clone del repo propio donde tienen el ejeccicio.
-- crear un archivo app.js donde desarrollaran el ejercicio.
-- para ejecutar el archivo `$ node app.js`
+### Inicio y ejecución del ejercicio
+- Iniciar workspace en Gitpod y crear el archivo *app.js*
+- Para ejecutar el archivo *app.js*, ejecutar en la terminal `$ node app.js`
 
-####Example
+### Ejemplo de entrada
 
 ```javascript
-// ejemplo del array
-
+// Array dado
 const listNumber = [
     1,  2,  3,   4,  5,  6,  7,  8,  9, 10, 11, 12,
    13, 14, 15,  16, 17, 18, 19, 20, 21, 22, 23, 24,
@@ -33,7 +27,7 @@ const listNumber = [
    97, 98, 99, 100
  ];
  
- // ejemplo de numero dado
+ // Número a buscar
  let findNumber = 45;
  
 ```
