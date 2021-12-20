@@ -178,37 +178,44 @@ const listNumber = [
     97, 98, 99, 100
 ];
 
-let findNumber = 45;
+let findNumber = 455;
+
+const array_th = [];
+for (i = 0; i < 10000; i++) {
+    array_th.push(i);
+}
+
+console.log(array_th);
 
 console.log("/****** Búsqueda binaria ******/")
-binary_search(listNumber, findNumber);
+binary_search(array_th, findNumber);
 
 console.log("");
 
 console.log("/****** Búsqueda por extremos ******/")
-corners_search(listNumber, findNumber);
+corners_search(array_th, findNumber);
 
 console.log("");
 
 console.log("/****** Filter ******/")
-filter_search(listNumber, findNumber);
+filter_search(array_th, findNumber);
 
 console.log("");
 
 console.log("/****** Find ******/")
-find_search(listNumber, findNumber);
+find_search(array_th, findNumber);
 
 console.log("");
 
 console.log("/****** Map ******/")
-map_search(listNumber, findNumber);
+map_search(array_th, findNumber);
 
 console.log("");
 
 console.log("/****** Includes ******/")
-includes_search(listNumber, findNumber);
+includes_search(array_th, findNumber);
 
 console.log("");
 
 console.log("/****** IndexOf ******/")
-indexof_search(listNumber, findNumber);
+indexof_search(array_th, findNumber);
