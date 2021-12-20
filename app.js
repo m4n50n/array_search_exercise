@@ -61,10 +61,18 @@ const corners_search = (array, number) => {
     while (first <= array.length - 1) {
         if (array[first] === number) { // búsqueda desde el principio del array
             console.log("Se ha encontrado el número comenzando por el principio del array en el index " + first);
+
+            const duration = performance.now();
+            console.log(`Execution time: ${duration - start} ms`);
+
             return true;
         } 
         else if (array[last] === number) { // búsqueda desde el final del array
             console.log("Se ha encontrado el número comenzando por el final del array en el index " + last);
+            
+            const duration = performance.now();
+            console.log(`Execution time: ${duration - start} ms`);
+            
             return true;
         }
         
